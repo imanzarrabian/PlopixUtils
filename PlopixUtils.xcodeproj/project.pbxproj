@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PlopixUtilsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PlopixUtilsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7FC0388012DBB39D006CCCEB /* README.rst in Resources */ = {isa = PBXBuildFile; fileRef = 7FC0384D12DBB39D006CCCEB /* README.rst */; };
+		7FC0388112DBB39D006CCCEB /* PlopixFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0384F12DBB39D006CCCEB /* PlopixFileManager.m */; };
+		7FC0388212DBB39D006CCCEB /* PlopixUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0385112DBB39D006CCCEB /* PlopixUtils.m */; };
+		7FC0388312DBB39D006CCCEB /* PlopixLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0385312DBB39D006CCCEB /* PlopixLocationController.m */; };
+		7FC0388412DBB39D006CCCEB /* PlopixGANTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0385512DBB39D006CCCEB /* PlopixGANTrack.m */; };
+		7FC0388512DBB39D006CCCEB /* PlopixInterfaceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0385912DBB39D006CCCEB /* PlopixInterfaceUtils.m */; };
+		7FC0388612DBB39D006CCCEB /* UIView+FindAndResignFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0385B12DBB39D006CCCEB /* UIView+FindAndResignFirstResponder.m */; };
+		7FC0388712DBB39D006CCCEB /* PlopixRefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0385D12DBB39D006CCCEB /* PlopixRefreshTableHeaderView.m */; };
+		7FC0388812DBB39D006CCCEB /* PlopixLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0385F12DBB39D006CCCEB /* PlopixLoadingView.m */; };
+		7FC0388912DBB39D006CCCEB /* PlopixAsyncUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0386112DBB39D006CCCEB /* PlopixAsyncUIImageView.m */; };
+		7FC0388A12DBB39D006CCCEB /* PlopixUnderLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0386312DBB39D006CCCEB /* PlopixUnderLineLabel.m */; };
+		7FC0388B12DBB39D006CCCEB /* PlopixAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0386512DBB39D006CCCEB /* PlopixAlertView.m */; };
+		7FC0388C12DBB39D006CCCEB /* PlopixRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0386712DBB39D006CCCEB /* PlopixRoundedView.m */; };
+		7FC0388D12DBB39D006CCCEB /* PlopixSqLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0386A12DBB39D006CCCEB /* PlopixSqLiteManager.m */; };
+		7FC0388E12DBB39D006CCCEB /* PlopixModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0386C12DBB39D006CCCEB /* PlopixModel.m */; };
+		7FC0388F12DBB39D006CCCEB /* PlopixPersistentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0386E12DBB39D006CCCEB /* PlopixPersistentData.m */; };
+		7FC0389012DBB39D006CCCEB /* PlopixModelObjectNotFoundException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0387012DBB39D006CCCEB /* PlopixModelObjectNotFoundException.m */; };
+		7FC0389112DBB39D006CCCEB /* PlopixService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0387212DBB39D006CCCEB /* PlopixService.m */; };
+		7FC0389212DBB39D006CCCEB /* PlopixPendingActionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0387412DBB39D006CCCEB /* PlopixPendingActionsManager.m */; };
+		7FC0389312DBB39D006CCCEB /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0387712DBB39D006CCCEB /* UIImage+Extensions.m */; };
+		7FC0389412DBB39D006CCCEB /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0387812DBB39D006CCCEB /* UIImage+Alpha.m */; };
+		7FC0389512DBB39D006CCCEB /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0387A12DBB39D006CCCEB /* UIImage+RoundedCorner.m */; };
+		7FC0389612DBB39D006CCCEB /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0387C12DBB39D006CCCEB /* UIImage+Resize.m */; };
+		7FC0389712DBB39D006CCCEB /* UIImage+UKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0387F12DBB39D006CCCEB /* UIImage+UKImage.m */; };
+		7FC0389B12DBB3BA006CCCEB /* PendingAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0389A12DBB3BA006CCCEB /* PendingAction.m */; };
+		7FC038CD12DBB5A0006CCCEB /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC038AF12DBB5A0006CCCEB /* libGoogleAnalytics.a */; };
+		7FC038CE12DBB5A0006CCCEB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038B212DBB5A0006CCCEB /* Reachability.m */; };
+		7FC038CF12DBB5A0006CCCEB /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038B412DBB5A0006CCCEB /* ASIAuthenticationDialog.m */; };
+		7FC038D012DBB5A0006CCCEB /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038B712DBB5A0006CCCEB /* ASIDataCompressor.m */; };
+		7FC038D112DBB5A0006CCCEB /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038B912DBB5A0006CCCEB /* ASIDataDecompressor.m */; };
+		7FC038D212DBB5A0006CCCEB /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038BB12DBB5A0006CCCEB /* ASIDownloadCache.m */; };
+		7FC038D312DBB5A0006CCCEB /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038BD12DBB5A0006CCCEB /* ASIFormDataRequest.m */; };
+		7FC038D412DBB5A0006CCCEB /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038BF12DBB5A0006CCCEB /* ASIHTTPRequest.m */; };
+		7FC038D512DBB5A0006CCCEB /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038C312DBB5A0006CCCEB /* ASIInputStream.m */; };
+		7FC038D612DBB5A0006CCCEB /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038C512DBB5A0006CCCEB /* ASINetworkQueue.m */; };
+		7FC038F212DBB628006CCCEB /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038E912DBB628006CCCEB /* NSObject+SBJSON.m */; };
+		7FC038F312DBB628006CCCEB /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038EB12DBB628006CCCEB /* NSString+SBJSON.m */; };
+		7FC038F412DBB628006CCCEB /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038ED12DBB628006CCCEB /* SBJsonBase.m */; };
+		7FC038F512DBB628006CCCEB /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038EF12DBB628006CCCEB /* SBJsonParser.m */; };
+		7FC038F612DBB628006CCCEB /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC038F112DBB628006CCCEB /* SBJsonWriter.m */; };
+		7FC0398312DBBA52006CCCEB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0398212DBBA52006CCCEB /* CFNetwork.framework */; };
+		7FC0398512DBBA52006CCCEB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0398412DBBA52006CCCEB /* CoreLocation.framework */; };
+		7FC0398712DBBA52006CCCEB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0398612DBBA52006CCCEB /* MobileCoreServices.framework */; };
+		7FC0398912DBBA52006CCCEB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0398812DBBA52006CCCEB /* SystemConfiguration.framework */; };
+		7FC0398B12DBBA52006CCCEB /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0398A12DBBA52006CCCEB /* libsqlite3.0.dylib */; };
+		7FC0398D12DBBA52006CCCEB /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0398C12DBBA52006CCCEB /* libz.1.2.3.dylib */; };
+		7FC0399112DBBA72006CCCEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0399012DBBA72006CCCEB /* QuartzCore.framework */; };
+		7FC0399512DBBA80006CCCEB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0399412DBBA80006CCCEB /* MapKit.framework */; };
+		7FC0399E12DBBF6B006CCCEB /* PlopixUtils.db in Resources */ = {isa = PBXBuildFile; fileRef = 7FC0399D12DBBF6B006CCCEB /* PlopixUtils.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PlopixUtilsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlopixUtilsAppDelegate.h; path = Classes/PlopixUtilsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PlopixUtilsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlopixUtilsAppDelegate.m; path = Classes/PlopixUtilsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PlopixUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlopixUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* PlopixUtils_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixUtils_Prefix.pch; sourceTree = "<group>"; };
+		7FC0384D12DBB39D006CCCEB /* README.rst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.rst; sourceTree = "<group>"; };
+		7FC0384E12DBB39D006CCCEB /* PlopixFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixFileManager.h; sourceTree = "<group>"; };
+		7FC0384F12DBB39D006CCCEB /* PlopixFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixFileManager.m; sourceTree = "<group>"; };
+		7FC0385012DBB39D006CCCEB /* PlopixUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixUtils.h; sourceTree = "<group>"; };
+		7FC0385112DBB39D006CCCEB /* PlopixUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixUtils.m; sourceTree = "<group>"; };
+		7FC0385212DBB39D006CCCEB /* PlopixLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixLocationController.h; sourceTree = "<group>"; };
+		7FC0385312DBB39D006CCCEB /* PlopixLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixLocationController.m; sourceTree = "<group>"; };
+		7FC0385412DBB39D006CCCEB /* PlopixGANTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixGANTrack.h; sourceTree = "<group>"; };
+		7FC0385512DBB39D006CCCEB /* PlopixGANTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixGANTrack.m; sourceTree = "<group>"; };
+		7FC0385612DBB39D006CCCEB /* PlopixMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixMacros.h; sourceTree = "<group>"; };
+		7FC0385812DBB39D006CCCEB /* PlopixInterfaceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixInterfaceUtils.h; sourceTree = "<group>"; };
+		7FC0385912DBB39D006CCCEB /* PlopixInterfaceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixInterfaceUtils.m; sourceTree = "<group>"; };
+		7FC0385A12DBB39D006CCCEB /* UIView+FindAndResignFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FindAndResignFirstResponder.h"; sourceTree = "<group>"; };
+		7FC0385B12DBB39D006CCCEB /* UIView+FindAndResignFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FindAndResignFirstResponder.m"; sourceTree = "<group>"; };
+		7FC0385C12DBB39D006CCCEB /* PlopixRefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixRefreshTableHeaderView.h; sourceTree = "<group>"; };
+		7FC0385D12DBB39D006CCCEB /* PlopixRefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixRefreshTableHeaderView.m; sourceTree = "<group>"; };
+		7FC0385E12DBB39D006CCCEB /* PlopixLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixLoadingView.h; sourceTree = "<group>"; };
+		7FC0385F12DBB39D006CCCEB /* PlopixLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixLoadingView.m; sourceTree = "<group>"; };
+		7FC0386012DBB39D006CCCEB /* PlopixAsyncUIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixAsyncUIImageView.h; sourceTree = "<group>"; };
+		7FC0386112DBB39D006CCCEB /* PlopixAsyncUIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixAsyncUIImageView.m; sourceTree = "<group>"; };
+		7FC0386212DBB39D006CCCEB /* PlopixUnderLineLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixUnderLineLabel.h; sourceTree = "<group>"; };
+		7FC0386312DBB39D006CCCEB /* PlopixUnderLineLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixUnderLineLabel.m; sourceTree = "<group>"; };
+		7FC0386412DBB39D006CCCEB /* PlopixAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixAlertView.h; sourceTree = "<group>"; };
+		7FC0386512DBB39D006CCCEB /* PlopixAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixAlertView.m; sourceTree = "<group>"; };
+		7FC0386612DBB39D006CCCEB /* PlopixRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixRoundedView.h; sourceTree = "<group>"; };
+		7FC0386712DBB39D006CCCEB /* PlopixRoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixRoundedView.m; sourceTree = "<group>"; };
+		7FC0386912DBB39D006CCCEB /* PlopixSqLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixSqLiteManager.h; sourceTree = "<group>"; };
+		7FC0386A12DBB39D006CCCEB /* PlopixSqLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixSqLiteManager.m; sourceTree = "<group>"; };
+		7FC0386B12DBB39D006CCCEB /* PlopixModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixModel.h; sourceTree = "<group>"; };
+		7FC0386C12DBB39D006CCCEB /* PlopixModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixModel.m; sourceTree = "<group>"; };
+		7FC0386D12DBB39D006CCCEB /* PlopixPersistentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixPersistentData.h; sourceTree = "<group>"; };
+		7FC0386E12DBB39D006CCCEB /* PlopixPersistentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixPersistentData.m; sourceTree = "<group>"; };
+		7FC0386F12DBB39D006CCCEB /* PlopixModelObjectNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixModelObjectNotFoundException.h; sourceTree = "<group>"; };
+		7FC0387012DBB39D006CCCEB /* PlopixModelObjectNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixModelObjectNotFoundException.m; sourceTree = "<group>"; };
+		7FC0387112DBB39D006CCCEB /* PlopixService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixService.h; sourceTree = "<group>"; };
+		7FC0387212DBB39D006CCCEB /* PlopixService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixService.m; sourceTree = "<group>"; };
+		7FC0387312DBB39D006CCCEB /* PlopixPendingActionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlopixPendingActionsManager.h; sourceTree = "<group>"; };
+		7FC0387412DBB39D006CCCEB /* PlopixPendingActionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlopixPendingActionsManager.m; sourceTree = "<group>"; };
+		7FC0387612DBB39D006CCCEB /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		7FC0387712DBB39D006CCCEB /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		7FC0387812DBB39D006CCCEB /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		7FC0387912DBB39D006CCCEB /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		7FC0387A12DBB39D006CCCEB /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		7FC0387B12DBB39D006CCCEB /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7FC0387C12DBB39D006CCCEB /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7FC0387D12DBB39D006CCCEB /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		7FC0387E12DBB39D006CCCEB /* UIImage+UKImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UKImage.h"; sourceTree = "<group>"; };
+		7FC0387F12DBB39D006CCCEB /* UIImage+UKImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UKImage.m"; sourceTree = "<group>"; };
+		7FC0389912DBB3BA006CCCEB /* PendingAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PendingAction.h; sourceTree = "<group>"; };
+		7FC0389A12DBB3BA006CCCEB /* PendingAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingAction.m; sourceTree = "<group>"; };
+		7FC038AE12DBB5A0006CCCEB /* GANTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GANTracker.h; sourceTree = "<group>"; };
+		7FC038AF12DBB5A0006CCCEB /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
+		7FC038B112DBB5A0006CCCEB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7FC038B212DBB5A0006CCCEB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7FC038B312DBB5A0006CCCEB /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		7FC038B412DBB5A0006CCCEB /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		7FC038B512DBB5A0006CCCEB /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		7FC038B612DBB5A0006CCCEB /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		7FC038B712DBB5A0006CCCEB /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		7FC038B812DBB5A0006CCCEB /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		7FC038B912DBB5A0006CCCEB /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		7FC038BA12DBB5A0006CCCEB /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		7FC038BB12DBB5A0006CCCEB /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		7FC038BC12DBB5A0006CCCEB /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		7FC038BD12DBB5A0006CCCEB /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		7FC038BE12DBB5A0006CCCEB /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		7FC038BF12DBB5A0006CCCEB /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		7FC038C012DBB5A0006CCCEB /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		7FC038C112DBB5A0006CCCEB /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		7FC038C212DBB5A0006CCCEB /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		7FC038C312DBB5A0006CCCEB /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		7FC038C412DBB5A0006CCCEB /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		7FC038C512DBB5A0006CCCEB /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		7FC038C612DBB5A0006CCCEB /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		7FC038E712DBB628006CCCEB /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		7FC038E812DBB628006CCCEB /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		7FC038E912DBB628006CCCEB /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		7FC038EA12DBB628006CCCEB /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		7FC038EB12DBB628006CCCEB /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		7FC038EC12DBB628006CCCEB /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		7FC038ED12DBB628006CCCEB /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		7FC038EE12DBB628006CCCEB /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		7FC038EF12DBB628006CCCEB /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		7FC038F012DBB628006CCCEB /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		7FC038F112DBB628006CCCEB /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		7FC038FA12DBB73D006CCCEB /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		7FC0398212DBBA52006CCCEB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7FC0398412DBBA52006CCCEB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7FC0398612DBBA52006CCCEB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7FC0398812DBBA52006CCCEB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7FC0398A12DBBA52006CCCEB /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		7FC0398C12DBBA52006CCCEB /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		7FC0399012DBBA72006CCCEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7FC0399412DBBA80006CCCEB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7FC0399D12DBBF6B006CCCEB /* PlopixUtils.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlopixUtils.db; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* PlopixUtils-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PlopixUtils-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				7FC038CD12DBB5A0006CCCEB /* libGoogleAnalytics.a in Frameworks */,
+				7FC0398312DBBA52006CCCEB /* CFNetwork.framework in Frameworks */,
+				7FC0398512DBBA52006CCCEB /* CoreLocation.framework in Frameworks */,
+				7FC0398712DBBA52006CCCEB /* MobileCoreServices.framework in Frameworks */,
+				7FC0398912DBBA52006CCCEB /* SystemConfiguration.framework in Frameworks */,
+				7FC0398B12DBBA52006CCCEB /* libsqlite3.0.dylib in Frameworks */,
+				7FC0398D12DBBA52006CCCEB /* libz.1.2.3.dylib in Frameworks */,
+				7FC0399112DBBA72006CCCEB /* QuartzCore.framework in Frameworks */,
+				7FC0399512DBBA80006CCCEB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7FC038F912DBB6FC006CCCEB /* _config */,
+				7FC0389812DBB3A5006CCCEB /* _models */,
+				7FC0384812DBB2FC006CCCEB /* _lib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PlopixUtils.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* PlopixUtils_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0399C12DBBD23006CCCEB /* _db */,
+				1D3623240D0F684500981E51 /* PlopixUtilsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PlopixUtilsAppDelegate.m */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* PlopixUtils-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				7FC0398212DBBA52006CCCEB /* CFNetwork.framework */,
+				7FC0398412DBBA52006CCCEB /* CoreLocation.framework */,
+				7FC0398612DBBA52006CCCEB /* MobileCoreServices.framework */,
+				7FC0398812DBBA52006CCCEB /* SystemConfiguration.framework */,
+				7FC0398A12DBBA52006CCCEB /* libsqlite3.0.dylib */,
+				7FC0398C12DBBA52006CCCEB /* libz.1.2.3.dylib */,
+				7FC0399012DBBA72006CCCEB /* QuartzCore.framework */,
+				7FC0399412DBBA80006CCCEB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FC0384812DBB2FC006CCCEB /* _lib */ = {
+			isa = PBXGroup;
+			children = (
+				7FC038B012DBB5A0006CCCEB /* ASIHTTPRequest */,
+				7FC038AD12DBB5A0006CCCEB /* GoogleAnalytics */,
+				7FC0389F12DBB5A0006CCCEB /* JSON */,
+				7FC0384C12DBB39D006CCCEB /* Plopix */,
+			);
+			name = _lib;
+			sourceTree = "<group>";
+		};
+		7FC0384C12DBB39D006CCCEB /* Plopix */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0387512DBB39D006CCCEB /* UIImage */,
+				7FC0386812DBB39D006CCCEB /* Datas */,
+				7FC0385712DBB39D006CCCEB /* Views */,
+				7FC0384D12DBB39D006CCCEB /* README.rst */,
+				7FC0384E12DBB39D006CCCEB /* PlopixFileManager.h */,
+				7FC0384F12DBB39D006CCCEB /* PlopixFileManager.m */,
+				7FC0385012DBB39D006CCCEB /* PlopixUtils.h */,
+				7FC0385112DBB39D006CCCEB /* PlopixUtils.m */,
+				7FC0385212DBB39D006CCCEB /* PlopixLocationController.h */,
+				7FC0385312DBB39D006CCCEB /* PlopixLocationController.m */,
+				7FC0385412DBB39D006CCCEB /* PlopixGANTrack.h */,
+				7FC0385512DBB39D006CCCEB /* PlopixGANTrack.m */,
+				7FC0385612DBB39D006CCCEB /* PlopixMacros.h */,
+			);
+			name = Plopix;
+			sourceTree = "<group>";
+		};
+		7FC0385712DBB39D006CCCEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0385812DBB39D006CCCEB /* PlopixInterfaceUtils.h */,
+				7FC0385912DBB39D006CCCEB /* PlopixInterfaceUtils.m */,
+				7FC0385A12DBB39D006CCCEB /* UIView+FindAndResignFirstResponder.h */,
+				7FC0385B12DBB39D006CCCEB /* UIView+FindAndResignFirstResponder.m */,
+				7FC0385C12DBB39D006CCCEB /* PlopixRefreshTableHeaderView.h */,
+				7FC0385D12DBB39D006CCCEB /* PlopixRefreshTableHeaderView.m */,
+				7FC0385E12DBB39D006CCCEB /* PlopixLoadingView.h */,
+				7FC0385F12DBB39D006CCCEB /* PlopixLoadingView.m */,
+				7FC0386012DBB39D006CCCEB /* PlopixAsyncUIImageView.h */,
+				7FC0386112DBB39D006CCCEB /* PlopixAsyncUIImageView.m */,
+				7FC0386212DBB39D006CCCEB /* PlopixUnderLineLabel.h */,
+				7FC0386312DBB39D006CCCEB /* PlopixUnderLineLabel.m */,
+				7FC0386412DBB39D006CCCEB /* PlopixAlertView.h */,
+				7FC0386512DBB39D006CCCEB /* PlopixAlertView.m */,
+				7FC0386612DBB39D006CCCEB /* PlopixRoundedView.h */,
+				7FC0386712DBB39D006CCCEB /* PlopixRoundedView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7FC0386812DBB39D006CCCEB /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0386912DBB39D006CCCEB /* PlopixSqLiteManager.h */,
+				7FC0386A12DBB39D006CCCEB /* PlopixSqLiteManager.m */,
+				7FC0386B12DBB39D006CCCEB /* PlopixModel.h */,
+				7FC0386C12DBB39D006CCCEB /* PlopixModel.m */,
+				7FC0386D12DBB39D006CCCEB /* PlopixPersistentData.h */,
+				7FC0386E12DBB39D006CCCEB /* PlopixPersistentData.m */,
+				7FC0386F12DBB39D006CCCEB /* PlopixModelObjectNotFoundException.h */,
+				7FC0387012DBB39D006CCCEB /* PlopixModelObjectNotFoundException.m */,
+				7FC0387112DBB39D006CCCEB /* PlopixService.h */,
+				7FC0387212DBB39D006CCCEB /* PlopixService.m */,
+				7FC0387312DBB39D006CCCEB /* PlopixPendingActionsManager.h */,
+				7FC0387412DBB39D006CCCEB /* PlopixPendingActionsManager.m */,
+			);
+			name = Datas;
+			sourceTree = "<group>";
+		};
+		7FC0387512DBB39D006CCCEB /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0387612DBB39D006CCCEB /* UIImage+Extensions.h */,
+				7FC0387712DBB39D006CCCEB /* UIImage+Extensions.m */,
+				7FC0387D12DBB39D006CCCEB /* UIImage+Alpha.h */,
+				7FC0387812DBB39D006CCCEB /* UIImage+Alpha.m */,
+				7FC0387912DBB39D006CCCEB /* UIImage+RoundedCorner.h */,
+				7FC0387A12DBB39D006CCCEB /* UIImage+RoundedCorner.m */,
+				7FC0387B12DBB39D006CCCEB /* UIImage+Resize.h */,
+				7FC0387C12DBB39D006CCCEB /* UIImage+Resize.m */,
+				7FC0387E12DBB39D006CCCEB /* UIImage+UKImage.h */,
+				7FC0387F12DBB39D006CCCEB /* UIImage+UKImage.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		7FC0389812DBB3A5006CCCEB /* _models */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0389912DBB3BA006CCCEB /* PendingAction.h */,
+				7FC0389A12DBB3BA006CCCEB /* PendingAction.m */,
+			);
+			name = _models;
+			sourceTree = "<group>";
+		};
+		7FC0389F12DBB5A0006CCCEB /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				7FC038E712DBB628006CCCEB /* JSON.h */,
+				7FC038E812DBB628006CCCEB /* NSObject+SBJSON.h */,
+				7FC038E912DBB628006CCCEB /* NSObject+SBJSON.m */,
+				7FC038EA12DBB628006CCCEB /* NSString+SBJSON.h */,
+				7FC038EB12DBB628006CCCEB /* NSString+SBJSON.m */,
+				7FC038EC12DBB628006CCCEB /* SBJsonBase.h */,
+				7FC038ED12DBB628006CCCEB /* SBJsonBase.m */,
+				7FC038EE12DBB628006CCCEB /* SBJsonParser.h */,
+				7FC038EF12DBB628006CCCEB /* SBJsonParser.m */,
+				7FC038F012DBB628006CCCEB /* SBJsonWriter.h */,
+				7FC038F112DBB628006CCCEB /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		7FC038AD12DBB5A0006CCCEB /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				7FC038AE12DBB5A0006CCCEB /* GANTracker.h */,
+				7FC038AF12DBB5A0006CCCEB /* libGoogleAnalytics.a */,
+			);
+			name = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		7FC038B012DBB5A0006CCCEB /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				7FC038B112DBB5A0006CCCEB /* Reachability.h */,
+				7FC038B212DBB5A0006CCCEB /* Reachability.m */,
+				7FC038B312DBB5A0006CCCEB /* ASIAuthenticationDialog.h */,
+				7FC038B412DBB5A0006CCCEB /* ASIAuthenticationDialog.m */,
+				7FC038B512DBB5A0006CCCEB /* ASICacheDelegate.h */,
+				7FC038B612DBB5A0006CCCEB /* ASIDataCompressor.h */,
+				7FC038B712DBB5A0006CCCEB /* ASIDataCompressor.m */,
+				7FC038B812DBB5A0006CCCEB /* ASIDataDecompressor.h */,
+				7FC038B912DBB5A0006CCCEB /* ASIDataDecompressor.m */,
+				7FC038BA12DBB5A0006CCCEB /* ASIDownloadCache.h */,
+				7FC038BB12DBB5A0006CCCEB /* ASIDownloadCache.m */,
+				7FC038BC12DBB5A0006CCCEB /* ASIFormDataRequest.h */,
+				7FC038BD12DBB5A0006CCCEB /* ASIFormDataRequest.m */,
+				7FC038BE12DBB5A0006CCCEB /* ASIHTTPRequest.h */,
+				7FC038BF12DBB5A0006CCCEB /* ASIHTTPRequest.m */,
+				7FC038C012DBB5A0006CCCEB /* ASIHTTPRequestConfig.h */,
+				7FC038C112DBB5A0006CCCEB /* ASIHTTPRequestDelegate.h */,
+				7FC038C212DBB5A0006CCCEB /* ASIInputStream.h */,
+				7FC038C312DBB5A0006CCCEB /* ASIInputStream.m */,
+				7FC038C412DBB5A0006CCCEB /* ASINetworkQueue.h */,
+				7FC038C512DBB5A0006CCCEB /* ASINetworkQueue.m */,
+				7FC038C612DBB5A0006CCCEB /* ASIProgressDelegate.h */,
+			);
+			name = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		7FC038F912DBB6FC006CCCEB /* _config */ = {
+			isa = PBXGroup;
+			children = (
+				7FC038FA12DBB73D006CCCEB /* config.h */,
+			);
+			name = _config;
+			sourceTree = "<group>";
+		};
+		7FC0399C12DBBD23006CCCEB /* _db */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0399D12DBBF6B006CCCEB /* PlopixUtils.db */,
+			);
+			name = _db;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PlopixUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PlopixUtils" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlopixUtils;
+			productName = PlopixUtils;
+			productReference = 1D6058910D05DD3D006BFB54 /* PlopixUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PlopixUtils" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PlopixUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				7FC0388012DBB39D006CCCEB /* README.rst in Resources */,
+				7FC0399E12DBBF6B006CCCEB /* PlopixUtils.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PlopixUtilsAppDelegate.m in Sources */,
+				7FC0388112DBB39D006CCCEB /* PlopixFileManager.m in Sources */,
+				7FC0388212DBB39D006CCCEB /* PlopixUtils.m in Sources */,
+				7FC0388312DBB39D006CCCEB /* PlopixLocationController.m in Sources */,
+				7FC0388412DBB39D006CCCEB /* PlopixGANTrack.m in Sources */,
+				7FC0388512DBB39D006CCCEB /* PlopixInterfaceUtils.m in Sources */,
+				7FC0388612DBB39D006CCCEB /* UIView+FindAndResignFirstResponder.m in Sources */,
+				7FC0388712DBB39D006CCCEB /* PlopixRefreshTableHeaderView.m in Sources */,
+				7FC0388812DBB39D006CCCEB /* PlopixLoadingView.m in Sources */,
+				7FC0388912DBB39D006CCCEB /* PlopixAsyncUIImageView.m in Sources */,
+				7FC0388A12DBB39D006CCCEB /* PlopixUnderLineLabel.m in Sources */,
+				7FC0388B12DBB39D006CCCEB /* PlopixAlertView.m in Sources */,
+				7FC0388C12DBB39D006CCCEB /* PlopixRoundedView.m in Sources */,
+				7FC0388D12DBB39D006CCCEB /* PlopixSqLiteManager.m in Sources */,
+				7FC0388E12DBB39D006CCCEB /* PlopixModel.m in Sources */,
+				7FC0388F12DBB39D006CCCEB /* PlopixPersistentData.m in Sources */,
+				7FC0389012DBB39D006CCCEB /* PlopixModelObjectNotFoundException.m in Sources */,
+				7FC0389112DBB39D006CCCEB /* PlopixService.m in Sources */,
+				7FC0389212DBB39D006CCCEB /* PlopixPendingActionsManager.m in Sources */,
+				7FC0389312DBB39D006CCCEB /* UIImage+Extensions.m in Sources */,
+				7FC0389412DBB39D006CCCEB /* UIImage+Alpha.m in Sources */,
+				7FC0389512DBB39D006CCCEB /* UIImage+RoundedCorner.m in Sources */,
+				7FC0389612DBB39D006CCCEB /* UIImage+Resize.m in Sources */,
+				7FC0389712DBB39D006CCCEB /* UIImage+UKImage.m in Sources */,
+				7FC0389B12DBB3BA006CCCEB /* PendingAction.m in Sources */,
+				7FC038CE12DBB5A0006CCCEB /* Reachability.m in Sources */,
+				7FC038CF12DBB5A0006CCCEB /* ASIAuthenticationDialog.m in Sources */,
+				7FC038D012DBB5A0006CCCEB /* ASIDataCompressor.m in Sources */,
+				7FC038D112DBB5A0006CCCEB /* ASIDataDecompressor.m in Sources */,
+				7FC038D212DBB5A0006CCCEB /* ASIDownloadCache.m in Sources */,
+				7FC038D312DBB5A0006CCCEB /* ASIFormDataRequest.m in Sources */,
+				7FC038D412DBB5A0006CCCEB /* ASIHTTPRequest.m in Sources */,
+				7FC038D512DBB5A0006CCCEB /* ASIInputStream.m in Sources */,
+				7FC038D612DBB5A0006CCCEB /* ASINetworkQueue.m in Sources */,
+				7FC038F212DBB628006CCCEB /* NSObject+SBJSON.m in Sources */,
+				7FC038F312DBB628006CCCEB /* NSString+SBJSON.m in Sources */,
+				7FC038F412DBB628006CCCEB /* SBJsonBase.m in Sources */,
+				7FC038F512DBB628006CCCEB /* SBJsonParser.m in Sources */,
+				7FC038F612DBB628006CCCEB /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PlopixUtils_Prefix.pch;
+				INFOPLIST_FILE = "PlopixUtils-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PRODUCT_NAME = PlopixUtils;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PlopixUtils_Prefix.pch;
+				INFOPLIST_FILE = "PlopixUtils-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Classes\"",
+				);
+				PRODUCT_NAME = PlopixUtils;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PlopixUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "PlopixUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
