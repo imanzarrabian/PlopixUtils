@@ -34,7 +34,9 @@ Configuration
 ==============
 
 1) Add theses line in your {$PROJECT_NAME}_Prefix.pch
+
 ::
+
 #import "config.h"
 #import "PlopixMacros.h"
 

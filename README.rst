@@ -6,6 +6,6 @@ Plopix Utils 2.0
 **Last Change** : 2011/01/10
 
 
-**More infos : **
+**More infos :**
 
 https://github.com/Plopix/PlopixUtils/tree/master/Classes
