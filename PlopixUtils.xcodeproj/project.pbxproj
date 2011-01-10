@@ -169,6 +169,7 @@
 		7FC0399012DBBA72006CCCEB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7FC0399412DBBA80006CCCEB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7FC0399D12DBBF6B006CCCEB /* PlopixUtils.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlopixUtils.db; sourceTree = "<group>"; };
+		7FEA2E3B12DBC95C00206B8F /* README.rst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.rst; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* PlopixUtils-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PlopixUtils-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,6 +222,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				7FEA2E3B12DBC95C00206B8F /* README.rst */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
